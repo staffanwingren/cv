@@ -39,9 +39,7 @@ $if(linkedin)$
     <span class="icon-text">
       <span class="icon"><ion-icon name="logo-linkedin"></ion-icon></span>
       <span>
-        <a href="https://www.linkedin.com/in/$linkedin$">
-          <span class="is-hidden-touch is-hidden-desktop">www.linkedin.com/in/</span>$linkedin$
-        </a>
+        <a href="https://www.linkedin.com/in/$linkedin$">/$linkedin$</a>
       </span>
     </span>
   </li>
@@ -55,7 +53,7 @@ $endif$
 $if(competence)$
 <section class="block">
   <h5 class="title is-5 mb-2">Kompetens</h3>
-  <p class="has-text-justified">
+  <p class="has-text-justified-desktop">
 $for(competence)$
     <span class="comma-separate">$competence$</span>
 $endfor$
