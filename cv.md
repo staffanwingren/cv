@@ -1,6 +1,6 @@
 ---
 ###### title
-title: CV - Staffan Wingren - Druvan IT
+title: CV - Staffan Wingren - Druvan IT AB
 author: Staffan Wingren
 name: Staffan Wingren
 image: staffan_sq.jpg
