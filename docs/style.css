@@ -1,0 +1,28 @@
+.comma-separate::after {
+    content: ",";
+}
+
+.comma-separate:last-child::after {
+    content: "";
+}
+
+.content {
+    border-width: 0 0 0 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+.content h3 {
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: #ccc;
+    padding-bottom: 5px;
+}
+
+.content h6 {
+    margin-bottom: 0.3em;
+}

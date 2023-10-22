@@ -1,0 +1,64 @@
+<section class="block">
+$if(image)$
+  <figure class="image mx-6 mb-5 container">
+    <img src="$image$" class="is-rounded p-2 has-background-primary" />
+  </figure>
+$endif$
+  <h3 class="title is-4" id="name">$name$</h5>
+$if(work-title)$
+  <p class="subtitle is-6">$work-title$</p>
+$endif$
+</section>
+
+<section class="block">
+<ul>
+$if(email)$
+  <li>
+    <span class="icon-text">
+      <span class="icon"><ion-icon name="mail"></ion-icon></span>
+      <span>
+        <a href="mailto:$email$">$email$</a>
+      </span>
+    </span>
+  </li>
+$endif$
+$if(tel)$
+  <li>
+    <span class="icon-text">
+      <span class="icon">
+        <ion-icon name="call"></ion-icon>
+      </span>
+      <span>
+        <a href="tel:$tel$">$tel$</a>
+      </span>
+    </span>
+  </li>
+$endif$
+$if(linkedin)$
+  <li>
+    <span class="icon-text">
+      <span class="icon"><ion-icon name="logo-linkedin"></ion-icon></span>
+      <span>
+        <a href="https://www.linkedin.com/in/$linkedin$">
+          <span class="is-hidden-touch is-hidden-desktop">www.linkedin.com/in/</span>$linkedin$
+        </a>
+      </span>
+    </span>
+  </li>
+$endif$
+$if(work-years)$
+  <li>$work-years$</li>
+$endif$
+</ul>
+</section>
+
+$if(competence)$
+<section class="block">
+  <h5 class="title is-5 mb-2">Kompetens</h3>
+  <p class="has-text-justified">
+$for(competence)$
+    <span class="comma-separate">$competence$</span>
+$endfor$
+  </p>
+</section>
+$endif$
